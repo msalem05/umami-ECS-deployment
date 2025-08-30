@@ -1,6 +1,6 @@
 #Build Stage
 
-FROM node:22-slim AS build
+FROM node:22-alpine AS build
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends openssl ca-certificates \
