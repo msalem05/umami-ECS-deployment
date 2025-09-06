@@ -41,3 +41,19 @@ yarn-error.log*
 
 *.dev.yml
 
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+.terraform.tfstate*
+terraform.tfstate*
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# CLI config files
+.terraformrc
+terraform.rc
